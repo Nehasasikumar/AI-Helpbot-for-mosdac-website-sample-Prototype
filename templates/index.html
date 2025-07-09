@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOSDAC Satellite Chat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #38bdf8;
+      --glass-bg: rgba(255, 255, 255, 0.08);
+      --glass-border: rgba(255, 255, 255, 0.15);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at center, #0d1b2a, #000814);
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .space {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .stars {
+      background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+      opacity: 0.07;
+      width: 100%;
+      height: 100%;
+      animation: twinkle 3s infinite alternate ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.04; }
+      100% { opacity: 0.1; }
+    }
+
+    .earth {
+      position: absolute;
+      bottom: -150px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 300px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg') no-repeat center/cover;
+      border-radius: 50%;
+      box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+    }
+
+    .satellite {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/10152/10152879.png');
+      background-size: cover;
+    }
+
+    .orbit1, .orbit2, .orbit3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px dashed rgba(56, 189, 248, 0.2);
+      border-radius: 50%;
+    }
+
+    .orbit1 { width: 400px; height: 400px; }
+    .orbit2 { width: 500px; height: 500px; }
+    .orbit3 { width: 600px; height: 600px; }
+
+    .sat1 { animation: rotate1 15s linear infinite; }
+    .sat2 { animation: rotate2 22s linear infinite reverse; }
+    .sat3 { animation: rotate3 30s linear infinite; }
+
+    @keyframes rotate1 {
+      0% { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+    }
+
+    @keyframes rotate2 {
+      0% { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+    }
+
+    @keyframes rotate3 {
+      0% { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+      100% { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+    }
+
+    .chat-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 420px;
+      max-width: 90%;
+      height: 600px;
+      backdrop-filter: blur(16px);
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-header {
+      text-align: center;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .chat-box {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      color: white;
+    }
+
+    .message {
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .message.bot .bubble {
+      background: #334155;
+      color: white;
+    }
+
+    .message.user {
+      justify-content: flex-end;
+    }
+
+    .message.user .bubble {
+      background: var(--accent);
+      color: #000;
+    }
+
+    .bubble {
+      padding: 0.7rem 1rem;
+      border-radius: 16px;
+      max-width: 80%;
+      animation: pop 0.3s ease-in-out;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .chat-input {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .chat-input input {
+      flex: 1;
+      padding: 0.8rem;
+      border-radius: 12px;
+      border: none;
+      background: rgba(255, 255, 255, 0.05);
+      color: white;
+    }
+
+    .chat-input button {
+      padding: 0.8rem 1.2rem;
+      background: var(--accent);
+      border: none;
+      border-radius: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #0f172a;
+    }
+
+    .label {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: sans-serif;
+      color: white;
+      font-size: 1.5rem;
+      text-shadow: 0 0 8px cyan;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="space">
+    <div class="stars"></div>
+    <div class="earth"></div>
+    <div class="orbit1"></div>
+    <div class="orbit2"></div>
+    <div class="orbit3"></div>
+    <div class="satellite sat1" style="top: 50%; left: 50%;"></div>
+    <div class="satellite sat2" style="top: 50%; left: 50%;"></div>
+    <div class="satellite sat3" style="top: 50%; left: 50%;"></div>
+  </div>
+
+  <div class="chat-container">
+    <div class="chat-header">🛰 MOSDAC AI Help Bot</div>
+    <div class="chat-box">
+      <div class="message bot">
+        <div class="bubble">Hello! How can I help you with satellite data today?</div>
+      </div>
+      <div class="message user">
+        <div class="bubble">Show me the cyclone alert for Tamil Nadu.</div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" placeholder="Ask about weather, forecast, etc..." />
+      <button>Send</button>
+    </div>
+  </div>
+
+</body>
+</html>
