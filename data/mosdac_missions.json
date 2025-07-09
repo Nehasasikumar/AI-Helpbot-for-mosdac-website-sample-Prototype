@@ -1,0 +1,127 @@
+[
+  {
+    "url": "https://www.mosdac.gov.in/faq-page",
+    "text": "Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » FAQs Frequently Asked Questions What is MOSDAC? MOSDAC is the short form of Meteorological and Oceanographic Satellite Data Archival Center. It is a ISRO data portal which provides data through its web based service https://mosdac.gov.in How to be a registered user of MOSDAC? There is \"SignUp\" form available on MOSDAC portal. Pl fill up the form and submit. You will be intimated through e-mail about the approval. I have registered on MOSDAC . i have received an email for email verification. But when I click the link, I get error message. Please copy the Email verification Hyperlink sent on your registered email id and paste it in a new browser window/tab and open the link to verify your email address. I have received a 'reset password mail' But when I click the link, I get error message. Please copy the 'Reset Password Hyperlink' sent on your registered email id and past it in a new browser window/tab and open the link to reset password. I get error 'Invalid username or password' even though I provide correct credentials. Your account is locked for one hour after 3 unsuccessful login attempts. Please try after one hour. How to know forgot password? Click Forgot Password link on MOSDAC Login Page. Enter username or email. If valid username/email is entered, user will get an email containing 'Reset Password Hyperlink'. please copy 'Reset Password Hyperlink' and paste it in new browser window/tab and open the link and follow the procedure to reset password. How to change password? Login with your user name and password. select 'Change Profile'. Your Profile page will be displayed. Select 'Password' from the left panel of Profile Page. Provide old and new password and click save. Your password will be changed. I don't have username and password of MOSDAC. Can I download data? Anonymous users (without username and password) can download only open data. In order to download all data from MOSDAC, you need to register on MOSDAC site. There is \"SignUp\" form available on MOSDAC portal. Pl fill up the form properly and submit. You will be intimated through e-mail about the approval. How can I get near real time data without data ordering? If you want near real time data, you can place \"standing order\" from MOSDAC for Satellite data product/in-situ. Login to MOSDAC site and place standing order. A standing order can be placed for a maximum one month duration. After that you can again place the request. This functionality is available for privileged user only. How in-situ data can be ordered/requested? You are required to be a registered user for ordering the data. Be a registered user by filling up on-line form. Login to MOSDAC site. Select either \"In-situ data order\". Select the data of your interest. Place the order . Sign the agreement. A download link will be provided. After clicking here data will be downloaded on your desk through http. How Ordered and download the satellite data ? You are required to be a registered user for ordering the data. Be a registered user by filling up Sing Up form Available on the home page. Login to MOSDAC site with user credentials, Select \"Satellite data order\" . Select the data of your interest. Add to cart. submit the request. You will be given a request id no. You will be intimated through the mail about readiness of your data. You can also check status of your request from left menu under \"My request tab\" Your requested data will be uploaded to your SFTP account at sftp://ftp.mosdac.gov.in. You can download data from sftp://ftp.mosdac.gov.in using your MOSDAC portal user credentials. Which duration data can be obtained from MOSDAC? To view availability of data Select \"Catalog --> Satellite data\" from top menu bar. All data products list of a satellite will be displayed, which contains details of the data products viz: abstract, start date, end date, frequency etc. How many AWS are installed in each state of India? Select \"Catalog --> In-situ --> distribution\" from top menu bar, AWS distribution map and no. of AWS installed in each state of India will be displayed. Which duration data is available for AWS? AWS data is available from Jan 2008 till present date. How to get description about a data product? Select \"Catalog --> Satellite data\" from top menu bar. All data products list of a satellite will be displayed, which contains details of the data products viz: abstract, start date, end date, frequency etc. What datasets are available on MOSDAC? Select \"Catalog --> Satellite data\" from top menu bar. All data products list of a satellite will be displayed. You can change the satellite to view data products of selected satellite. Select \"Catalog --> In-situ --> distribution\" from top menu bar. All In-situ list will be displayed for which MOSDAC has datasets. I am a registered user of MOSDAC. When I download L1 data I get the message \"Your account is configured to download this data with latency of 3 days. Please select date accordingly.\" How should I download data? There are two category of users in MOSDAC, NRT users and General users, NRT users have access to real time data. General users are provided access Level-2 and onwards data in NRT and Level-1 data with a latency of 3 days. This message implies that the data product requested by you can't be download in near real time. You can download 3 days old data or you can contact to MOSDAC admin if you want near real time data. Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  },
+  {
+    "url": "https://www.mosdac.gov.in/insat-3dr",
+    "text": "INSAT-3DR | Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » Missions » INSAT-3DR INSAT-3DR INSAT-3DR is identical to INSAT-3D in terms of Sensors and products. INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region. The satellite is monitored and controlled by Master Control Facilities that exist in Hassan and Bhopal. INSAT-3DR is a multipurpose geosynchronous spacecraft with main meteorological payloads (imager and sounder). The main objectives for this mission are to provide an operational, environmental and storm warning system to protect life and property. INSAT3DR is monitoring the earth’s surface, oceanic observations and also provide data dissemination capabilities. It provides Broadcast Satellite Services (BSS) through two S-band transponders. The data acquisition and processing system is established at Space Applications Centre, Bopal Campus, Ahmedabad, India. The processing of INSAT-3DR data is taken place broadly in four steps. Ground receiving system to receive data Data Reception (DR) system to generate raw data (L0) files Data Processing (DP) system to process L0 data and produce L1B data files (Calibrated and Geo located) Product generation and Dissemination system It is positioned at 740 East Longitude. हिन्दी MissionsINSAT-3DRIntroduction Objectives SpaceCraft Payloads Data Products Documents Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "hi.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  },
+  {
+    "url": "https://www.mosdac.gov.in/insat-3d",
+    "text": "INSAT-3D | Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » Missions » INSAT-3D INSAT-3D INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region. The satellite is monitored and controlled by Master Control Facilities that exist in Hassan and Bhopal. INSAT-3D is a multipurpose geosynchronous spacecraft with main meteorological payloads (imager and sounder). The main objectives for this mission are to provide an operational, environmental and storm warning system to protect life and property. INSAT3D is monitoring the earth’s surface, oceanic observations and also provide data dissemination capabilities. It provides Broadcast Satellite Services (BSS) through two S-band transponders. The data acquisition and processing system is established at Space Applications Centre, Bopal Campus, Ahmedabad, India. The processing of INSAT-3D data is taken place broadly in four steps. Ground receiving system to receive data Data Reception (DR) system to generate raw data (L0) files Data Processing (DP) system to process L0 data and produce L1B data files (Calibrated and Geo located) Product generation and Dissemination system हिन्दी MissionsINSAT-3DIntroduction Objectives SpaceCraft Payloads Data Products Documents Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "hi.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  },
+  {
+    "url": "https://www.mosdac.gov.in/insat-3a",
+    "text": "INSAT-3A | Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » Missions » INSAT-3A INSAT-3A INSAT-3A is a multipurpose satellite for providing telecommunications, television broadcasting, meteorological and search & rescue services. It carries twenty four transponders - twelve operating in the normal C-band frequency, six in Extended C-band and six in Ku-band. Nine of the twelve normal C-band transponders provide expanded coverage and the remaining three have India coverage beam. All the extended C-band as well as the Ku-band transponders has India coverage beams. INSAT-3A also carries a Ku-band beacon. For meteorological observation, INSAT-3A carries a three channel Very High Resolution Radiometer (VHRR) with 2 km resolution in the visible band and 8 km resolution in thermal infrared and water vapour bands. In addition, INSAT-3A carries a Charge Coupled Device (CCD) camera which operates in the visible and short wave infrared bands providing a spatial resolution of 1 km. A Data Relay Transponder (DRT) operating in UHF band is incorporated for realtime hydro-meteorological data collection from unattended platforms located on land and river basins. The data is then relayed in extended C-band to a central location. INSAT-3A also carries another transponder for Satellite Aided Search and Rescue (SAS & R) as part of India's contribution to the international Satellite Aided Search and Rescue programme. INSAT-3A was launched by European Ariane-5G Launch Vehicle into a Geosynchronous Transfer Orbit (GTO) with a perigee of 200 km and an apogee of 35,980 km. The satellite is maneuvered to its final orbit by firing the satellite's apogee motor. Subsequently, the deployment of solar array, antennae and the solar sail is carried out and the satellite is commissioned after in-orbit checkout. हिन्दी MissionsINSAT-3AIntroduction Objectives SpaceCraft Payloads Data Products Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "hi.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  },
+  {
+    "url": "https://www.mosdac.gov.in/insat-3ds",
+    "text": "INSAT-3DS | Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » Missions » INSAT-3DS INSAT-3DS INSAT-3DS is identical to INSAT-3D in terms of Sensors and products. INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue needs of India. Commissioned in 1983, INSAT is the largest domestic communication system in the Asia Pacific Region. The satellite is monitored and controlled by Master Control Facilities that exist in Hassan and Bhopal. INSAT-3DS is a multipurpose geosynchronous spacecraft with main meteorological payloads (imager and sounder). The main objectives for this mission are to provide an operational, environmental and storm warning system to protect life and property. INSAT3S is monitoring the earth’s surface, oceanic observations and also provide data dissemination capabilities. It provides Broadcast Satellite Services (BSS) through two S-band transponders. The data acquisition and processing system is established at Space Applications Centre, Bopal Campus, Ahmedabad, India. The processing of INSAT-3DS data is taken place broadly in four steps. Ground receiving system to receive data Data Reception (DR) system to generate raw data (L0) files Data Processing (DP) system to process L0 data and produce L1B data files (Calibrated and Geo located) Product generation and Dissemination system हिन्दी INSAT-3DS Menu MissionINSAT-3DSIntroduction Objectives SpaceCraft Payloads Data Products Documents Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "hi.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  },
+  {
+    "url": "https://www.mosdac.gov.in/scatsat-1",
+    "text": "SCATSAT-1 | Meteorological & Oceanographic Satellite Data Archival Centre Skip to main Content -A A +A AA हिन्दीEnglish Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp You are hereHome » Missions » SCATSAT-1 SCATSAT-1 Scatsat-1 was launched by PSLV-C35 from Satish Dhawan Space Centre, Sriharikota on September 26, 2016. It carries the Ku-band Pencil Beam scatterometer (SCAT) payload developed by SAC-ISRO. हिन्दी MissionsSCATSAT-1Introduction Objectives SpaceCraft Payloads Data Products Documents Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 09 Jul, 2025& Served By: Web-Srv-Pri",
+    "images": [
+      "mosdac_small.png",
+      "hi.png",
+      "facebook.png",
+      "youtube.png",
+      "rss.png",
+      "cqw_logo.gif",
+      "logo-transparent.png",
+      "saclogo.png",
+      "india-gov_0.png",
+      "mygov_0.png",
+      "digital-india_0.png",
+      "data-gov.png"
+    ],
+    "pdfs": [
+      "STQC.pdf"
+    ]
+  }
+]

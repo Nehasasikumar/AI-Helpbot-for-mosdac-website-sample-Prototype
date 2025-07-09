@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-07-09">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="insat-3d" label="insat-3d" />
+      <node id="meteorological &amp; oceanographic satellite data archival centr..." label="meteorological &amp; oceanographic satellite data archival centr..." />
+      <node id="insat-3dr" label="insat-3dr" />
+      <node id="scatsat-1" label="scatsat-1" />
+      <node id="meghatropiques" label="meghatropiques" />
+      <node id="insat-3dr | meteorological &amp; oceanographic satellite data ar..." label="insat-3dr | meteorological &amp; oceanographic satellite data ar..." />
+      <node id="insat-3d | meteorological &amp; oceanographic satellite data arc..." label="insat-3d | meteorological &amp; oceanographic satellite data arc..." />
+      <node id="insat-3a | meteorological &amp; oceanographic satellite data arc..." label="insat-3a | meteorological &amp; oceanographic satellite data arc..." />
+      <node id="insat-3ds | meteorological &amp; oceanographic satellite data ar..." label="insat-3ds | meteorological &amp; oceanographic satellite data ar..." />
+      <node id="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." label="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." />
+    </nodes>
+    <edges>
+      <edge source="insat-3d" target="meteorological &amp; oceanographic satellite data archival centr..." id="0" label="provides_service" />
+      <edge source="insat-3d" target="insat-3dr | meteorological &amp; oceanographic satellite data ar..." id="1" label="provides_service" />
+      <edge source="insat-3d" target="insat-3d | meteorological &amp; oceanographic satellite data arc..." id="2" label="provides_service" />
+      <edge source="insat-3d" target="insat-3a | meteorological &amp; oceanographic satellite data arc..." id="3" label="provides_service" />
+      <edge source="insat-3d" target="insat-3ds | meteorological &amp; oceanographic satellite data ar..." id="4" label="provides_service" />
+      <edge source="insat-3d" target="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." id="5" label="provides_service" />
+      <edge source="insat-3dr" target="meteorological &amp; oceanographic satellite data archival centr..." id="6" label="provides_service" />
+      <edge source="insat-3dr" target="insat-3dr | meteorological &amp; oceanographic satellite data ar..." id="7" label="provides_service" />
+      <edge source="insat-3dr" target="insat-3d | meteorological &amp; oceanographic satellite data arc..." id="8" label="provides_service" />
+      <edge source="insat-3dr" target="insat-3a | meteorological &amp; oceanographic satellite data arc..." id="9" label="provides_service" />
+      <edge source="insat-3dr" target="insat-3ds | meteorological &amp; oceanographic satellite data ar..." id="10" label="provides_service" />
+      <edge source="insat-3dr" target="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." id="11" label="provides_service" />
+      <edge source="scatsat-1" target="meteorological &amp; oceanographic satellite data archival centr..." id="12" label="provides_service" />
+      <edge source="scatsat-1" target="insat-3dr | meteorological &amp; oceanographic satellite data ar..." id="13" label="provides_service" />
+      <edge source="scatsat-1" target="insat-3d | meteorological &amp; oceanographic satellite data arc..." id="14" label="provides_service" />
+      <edge source="scatsat-1" target="insat-3a | meteorological &amp; oceanographic satellite data arc..." id="15" label="provides_service" />
+      <edge source="scatsat-1" target="insat-3ds | meteorological &amp; oceanographic satellite data ar..." id="16" label="provides_service" />
+      <edge source="scatsat-1" target="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." id="17" label="provides_service" />
+      <edge source="meghatropiques" target="meteorological &amp; oceanographic satellite data archival centr..." id="18" label="provides_service" />
+      <edge source="meghatropiques" target="insat-3dr | meteorological &amp; oceanographic satellite data ar..." id="19" label="provides_service" />
+      <edge source="meghatropiques" target="insat-3d | meteorological &amp; oceanographic satellite data arc..." id="20" label="provides_service" />
+      <edge source="meghatropiques" target="insat-3a | meteorological &amp; oceanographic satellite data arc..." id="21" label="provides_service" />
+      <edge source="meghatropiques" target="insat-3ds | meteorological &amp; oceanographic satellite data ar..." id="22" label="provides_service" />
+      <edge source="meghatropiques" target="scatsat-1 | meteorological &amp; oceanographic satellite data ar..." id="23" label="provides_service" />
+    </edges>
+  </graph>
+</gexf>
