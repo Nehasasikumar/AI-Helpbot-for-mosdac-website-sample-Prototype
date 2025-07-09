@@ -1,76 +1,123 @@
-# AI-Helpbot-for-mosdac-website-sample-Prototype
+# AI Helpbot for MOSDAC Website – Sample Prototype
 
-**This project demonstrates a smart prototype that:**
-->Scrapes satellite mission and FAQ data from the MOSDAC website
-->Extracts and preprocesses key information using NLP techniques
-->Generates structured knowledge triples
-->Visualizes a clean and interpretable Knowledge Graph
-->Lays the groundwork for an intelligent assistant for ISRO/MOSDAC portals
+This project demonstrates a smart prototype that:
 
-**Features:**
-->Web scraping using Selenium + BeautifulSoup
-->NLP preprocessing using NLTK + spaCy
-->Knowledge triple extraction (Subject-Predicate-Object)
-->Clean triple refinement
-->Interactive and visually intuitive KG generation using NetworkX & matplotlib
+- Scrapes satellite mission and FAQ data from the MOSDAC website  
+- Extracts and preprocesses key information using NLP techniques  
+- Generates structured knowledge triples  
+- Visualizes a clean and interpretable Knowledge Graph  
+- Lays the groundwork for an intelligent assistant for ISRO/MOSDAC portals
 
-**Project Structure**
+---
+
+## Project Structure
+
+```
 AI Helpbot for mosdac website sample Prototype/
 │
 ├── data/
-│   ├── mosdac_missions.xlsx     ← Raw scraped data (Excel)
-│   ├── output.json              ← Original JSON scrape
-│   ├── triples.csv              ← Initial extracted triples
-│   └── triples_clean.csv        ← Refined triples for KG
+│   ├── mosdac_missions.xlsx     # Raw scraped data (Excel)
+│   ├── output.json              # Original scraped content
+│   ├── triples.csv              # Initial extracted triples
+│   └── triples_clean.csv        # Refined triples for KG
 │
 ├── kg/
-│   ├── graph.gexf               ← Knowledge Graph (GEXF format for tools like Gephi)
-│   └── clean_kg_graph.png       ← Neatly visualized KG image
+│   ├── graph.gexf               # Knowledge Graph (for Gephi/Neo4j)
+│   └── clean_kg_graph.png       # Neatly visualized KG image
 │
 ├── scraper/
-│   └── faq_scraper.py           ← Web scraper using Selenium & BeautifulSoup
+│   └── faq_scraper.py           # Web scraper using Selenium & BeautifulSoup
 │
 ├── utils/
-│   ├── preprocess_triples.py    ← Triple cleaner/preprocessor
-│   └── kg_preprocessor.py       ← Knowledge Graph builder & visualizer
+│   ├── preprocess_triples.py    # Triple cleaner/preprocessor
+│   └── kg_preprocessor.py       # KG builder & visualizer
 │
-├── requirements.txt             ← Python dependencies
-└── README.md                    ← This file
+├── requirements.txt             # Python dependencies
+└── README.md                    # This file
+```
 
-**How to Run:**
-**1️)Create a virtual environment (if not already)**
+---
+
+## Setup Instructions
+
+### 1. Create Virtual Environment
+
+```bash
 python -m venv venv
-.\venv\Scripts\Activate.ps1   # For Windows PowerShell
+```
 
-**2️)Install dependencies:**
+Activate:
+
+- Windows:
+  ```bash
+  .\venv\Scripts\Activate.ps1
+  ```
+- macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+```
 
-**3️)Scrape the data (optional if already present):**
+---
+
+## Workflow
+
+### Step 1: Scrape Data (Optional)
+
+```bash
 python scraper/faq_scraper.py
+```
 
-**4)Preprocess the extracted triples:**
+### Step 2: Preprocess Extracted Triples
+
+```bash
 python utils/preprocess_triples.py
+```
 
-**5️)Generate and visualize the Knowledge Graph:**
+### Step 3: Generate Knowledge Graph
+
+```bash
 python utils/kg_preprocessor.py
+```
 
-**Example Output**
-Triple Example:
+---
+
+## Example Output
+
+### Sample Triple
+
+```
 insat-3d → provides_service → meteorological observation
+```
 
-**KG Visualization:**
-Generated as a clean image in kg/clean_kg_graph.png
-Also saved as kg/graph.gexf for use in Gephi or other tools
+### Knowledge Graph
 
-**Tech Stack:**
-->Python 3.10+
-->Selenium & BeautifulSoup (scraping)
-->pandas, openpyxl (data handling)
-->nltk, spaCy (NLP preprocessing)
-->networkx, matplotlib (graph generation)
+- Image output: kg/clean_kg_graph.png  
+- GEXF output (for Gephi): kg/graph.gexf
 
-**Use Cases**
-->Interactive satellite helpbot assistant
-->Scientific document knowledge modeling
-->Foundation for Q&A systems over scraped content
+---
+
+## Tech Stack
+
+| Area          | Tools Used                                      |
+|---------------|--------------------------------------------------|
+| Web Scraping  | Selenium, BeautifulSoup, requests, lxml         |
+| NLP           | nltk, spaCy                                     |
+| Data Handling | pandas, openpyxl                                |
+| Graphs        | networkx, matplotlib                            |
+
+---
+
+## Use Cases
+
+- AI-powered satellite helpbot assistant  
+- Scientific document knowledge modeling  
+- Foundation for Q&A systems over scraped content
+
+---
